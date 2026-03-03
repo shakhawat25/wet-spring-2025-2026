@@ -1,0 +1,66 @@
+/* Selector {
+    Property: value;
+} */
+
+/* 1 */
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2 */
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+/* 3 */
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* 4 */
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* 5 */
+a:hover {
+    color: red;
+}
+
+/* 6 */
+section {
+    border: 2px dashed rgba(255, 176, 170, 0.7);
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+/* 7 */
+h2 {
+    color: red;
+    border: 2px solid rgb(255, 176, 170);
+    padding: 8px;
+}
+
+/* 8 */
+p {
+    color: black;
+    line-height: 1.5;
+}
+
+/* 9 */
+ul {
+    margin-left: 20px;
+}
+
+/* 10 */
+img {
+    vertical-align: middle;
+    margin-right: 8px;
+}

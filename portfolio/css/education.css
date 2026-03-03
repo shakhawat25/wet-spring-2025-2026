@@ -1,0 +1,81 @@
+/* Selector {
+    Property: value;
+} */
+
+/* 1 */
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2 */
+header {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid rgb(255, 176, 170);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* 3 */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* 4 */
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* 5 */
+a:hover {
+    color: red;
+}
+
+/* 6 */
+section {
+    border: 2px dashed rgba(255, 176, 170, 0.7);
+    padding: 15px;
+    margin: 20px;
+    background-color: rgba(0, 0, 255, 0.05);
+}
+
+/* 7 */
+h2 {
+    color: red;
+    text-align: left;
+    border: 2px solid rgb(255, 176, 170);
+    padding: 8px;
+}
+
+/* 8 */
+h3 {
+    color: darkgreen;
+}
+
+/* 9 */
+p {
+    color: black;
+    line-height: 1.5;
+}
+
+/* 10 */
+ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* 11 */
+li {
+    list-style: square;
+    margin-left: 20px;
+    color: black;
+}
+
+/* 12 */
+img {
+    vertical-align: middle;
+    margin-right: 8px;
+}

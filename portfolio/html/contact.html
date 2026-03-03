@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Md. Shakhawat Hossen</title>
+
+</head>
+
+<body>
+
+    <h1>Contact Me</h1>
+
+
+    <h2>Quick Contact Info</h2>
+
+    <p>Email: shrifat973@gmail.com</p>
+
+    <p>Phone: +8801867062870 (WhatsApp Also)</p>
+
+
+    <h2>Contact Form</h2>
+
+    <form method="post">
+
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <label for="fname1">First Name (required)</label><br>
+            <input type="text" id="fname1" name="firstname" required>
+            <br><br>
+
+            <label for="lname1">Last Name (required)</label><br>
+            <input type="text" id="lname1" name="lastname" required>
+            <br><br>
+
+            <label>Gender (required)</label><br>
+            <input type="radio" id="male1" name="gender" value="male" required>
+            <label for="male1">Male</label>
+
+            <input type="radio" id="female1" name="gender" value="female">
+            <label for="female1">Female</label>
+            <br><br>
+
+            <label for="email1">Email (required)</label><br>
+            <input type="email" id="email1" name="email" required>
+            <br><br>
+
+            <label for="company1">Company</label><br>
+            <input type="text" id="company1" name="company">
+            <br><br>
+
+            <label>Reason of Contact (required)</label><br>
+            <input type="checkbox" id="projects1" name="reason[]" value="projects" required>
+            <label for="projects1">Projects</label>
+
+            <input type="checkbox" id="thesis1" name="reason[]" value="thesis">
+            <label for="thesis1">Thesis</label>
+
+            <input type="checkbox" id="job1" name="reason[]" value="job">
+            <label for="job1">Job</label>
+            <br><br>
+
+            <label for="topic1">Topics (required)</label><br>
+            <select id="topic1" name="topic" required>
+                <option value="">Select Topic</option>
+                <option>Web Development</option>
+                <option>Mobile Development</option>
+                <option>AI/ML Development</option>
+            </select>
+            <br><br>
+
+            <label for="date1">Consultation Date (required)</label><br>
+            <input type="date" id="date1" name="date" required>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+
+    </form>
+    <br><br>
+
+    <a href="index.html">Back to Home</a>
+
+</body>
+
+</html>

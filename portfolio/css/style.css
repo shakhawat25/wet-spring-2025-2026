@@ -1,0 +1,67 @@
+/* body {
+    background-color: rgb(55, 11, 67);
+} */
+
+
+/* Selector {
+    Property: value;
+} */
+
+/* 1 */
+body {
+    background-color: rgb(187, 207, 206);
+}
+
+/* 2 */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* 3 */
+h2 {
+    color: rgb(0, 174, 255);
+    text-align: center;
+    border: 2px dashed rgba(255, 176, 170, 0.5);
+}
+
+/* 4 */
+h3 {
+    color: darkgreen;
+}
+
+/* 5 */
+p {
+    color: black;
+    text-align: left;
+}
+
+/* 6 */
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* 7 */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* 8 */
+a:hover {
+    color: rgb(17, 255, 0);
+}
+
+/* 9 */
+#profile {
+    background-color: rgba(0, 0, 255, 0.1);
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+/* 10 */
+img {
+    border: 2px solid black;
+}
