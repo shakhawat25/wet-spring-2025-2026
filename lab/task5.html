@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Background</title>
+</head>
+
+<body>
+
+    <button id="bgBtn">Change Background</button>
+
+    <script>
+
+        /*
+        ==========================================================
+        STEP 1: SELECT BUTTON
+        ==========================================================
+        */
+        const bgBtn = document.getElementById("bgBtn");
+
+        /*
+        ==========================================================
+        STEP 2: CLICK EVENT
+        ==========================================================
+        Generate random RGB color each click
+        */
+
+        bgBtn.addEventListener("click", function () {
+
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+
+            const randomColor = "rgb(" + r + "," + g + "," + b + ")";
+
+            document.body.style.backgroundColor = randomColor;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
