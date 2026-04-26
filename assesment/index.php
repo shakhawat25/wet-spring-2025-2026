@@ -8,8 +8,6 @@ echo "The perimeter of the rectangle is: " . $perimeter;
 ?>
 
 
-<br>
-
 <?php
 $amount = 1000;
 $vat_rate = 0.15;
@@ -47,3 +45,5 @@ for($i=10; $i<=100; $i++){
     }       
 }   
 ?>
+
+
